@@ -1,7 +1,7 @@
-import { CONFIG } from './config.js';
+import { CONFIG } from './myconfig.js';
 
-export default {
-    async fetch(request, env, ctx) {
-        return new Response(`Worker is running. Config version: ${CONFIG.version}, Node name: ${CONFIG.nodeName}`);
+export 默认 {
+    async fetch(request， env， ctx) {
+        return new Response(`Worker is running. Config version: ${CONFIG。version}, Node name: ${CONFIG。nodeName}`);
     }
 };
